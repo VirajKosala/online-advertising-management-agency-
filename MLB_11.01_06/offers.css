@@ -1,0 +1,221 @@
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .offer {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .offer:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .offer h2 {
+    color: #333;
+    margin-top: 0;
+  }
+  
+  .offer p {
+    color: #666;
+  }
+
+
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+}
+
+
+body {
+    background-image: url(Home/back4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nvbutton {
+
+    margin-right: 3vw;
+    padding: 0;
+    height: 9vh;
+    color: white;
+    margin-left: 2vw;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+
+.nvbutton:hover {
+
+    background-color: rgb(31, 101, 148);
+
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    height: 9vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #000000, #035063);
+
+}
+
+.searchbutton {
+
+    background-color: #0b589b;
+    border-radius: 30px;
+    width: 6vw;
+    height: 3.5vh;
+    border: none;
+    color: #0f0e0e;
+    cursor: pointer;
+
+}
+
+.searchbutton:hover {
+
+    background-color: white;
+
+}
+
+.searchbox {
+
+    height: 3.5vh;
+    border-radius: 20px;
+
+}
+
+.imgicon {
+
+    height: 6vh;
+    padding-left: 1vw;
+}
+
+.user_container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user {
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.topic2{
+
+text-align: center;
+
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contact-info,
+.services,
+.offers {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.contact-info h3,
+.services h3,
+.offers h3 {
+    color: wheat;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-info ul,
+.services ul,
+.offers ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li,
+.services ul li,
+.offers ul li {
+    margin-bottom: 5px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+
+  
+    color: #dfdbed;
+}
+
+.topic4{
+
+text-align: center;
+}

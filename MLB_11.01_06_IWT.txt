@@ -1,0 +1,21 @@
+https://mysliit-my.sharepoint.com/:u:/g/personal/it23378698_my_sliit_lk/EfnNvvQy7eVPieL7BMMy3QkBMga3bRiha7guafDkoezBnQ?e=3YRrBo
+
+
+Group Number:    MLB_11.01_06
+
+Project Title:   Online Advertising Agency
+
+Student ID     Student Name           Email                       Contact Number
+1 IT23378698   W.M.R.M.Weerakoon      IT23378698@my.sliit.lk        0786979790
+2 IT23322912   V.K.Weerathunga        IT23322912@my.sliit.lk        0713449292
+3 IT23331440   D.M.S.N.D.Dissanayake  IT23331440@my.sliit.lk        0759784213
+4 IT23330696   P.K.Edirisooriya       IT23330696@my.sliit.lk        0704007724
+
+
+
+Implemented functions
+
+1 IT23378698   W.M.R.M.Weerakoon - Home page, Registraion page, service1 page, service2 page, (Registration page CRUD)
+2 IT23322912   V.K.Weerathunga - Contact us page, login page, User profile page, About us page, (Contact us CRUD)
+3 IT23331440   D.M.S.N.D.Dissanayake - Upcoming events page, Offers page, (User Profile CRUD)
+4 IT23330696   P.K.Edirisooriya  - Pricing page, Payment page, services3 page, (payment CRUD) 

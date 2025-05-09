@@ -1,0 +1,418 @@
+body {
+    background-image: url(Home/back4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.nvbutton {
+
+    margin-right: 3vw;
+    padding: 0;
+    height: 9vh;
+    color: white;
+    margin-left: 2vw;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+
+.nvbutton:hover {
+
+    background-color: rgb(31, 101, 148);
+
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    height: 9vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #000000, #035063);
+
+}
+
+.searchbutton {
+
+    background-color: #0b589b;
+    border-radius: 30px;
+    width: 6vw;
+    height: 3.5vh;
+    border: none;
+    color: #0f0e0e;
+    cursor: pointer;
+
+}
+
+.searchbutton:hover {
+
+    background-color: white;
+
+}
+
+.searchbox {
+
+    height: 3.5vh;
+    border-radius: 20px;
+
+}
+
+.imgicon {
+
+    height: 6vh;
+    padding-left: 1vw;
+}
+
+.user_container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user {
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+h1, h4 {
+    text-align: center;
+    color: rgb(37, 8, 118);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+h4 {
+    color: rgb(30, 22, 60);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.fa-square-twitter {
+    font-size: 50px;
+    color: rgb(74, 88, 240);
+}
+
+.fa-youtube {
+    font-size: 50px;
+    color: rgb(250, 13, 13);
+}
+
+.fa-square-facebook {
+    font-size: 50px;
+    color: rgb(48, 51, 199);
+}
+
+.fa-square-instagram {
+    font-size: 50px;
+    color: rgb(209, 66, 159);
+}
+
+p {
+    margin-top: 350px;
+    font-size: 30px;
+    color: #3a0d5d;
+    margin-left: 800px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.socialM {
+    margin-top: 30px;
+    margin-left: 1000px;
+    word-spacing: 30px;
+}
+
+i {
+    color: white; 
+}
+
+.user-icon {
+    margin-left: auto;
+    margin-left: 20px; 
+    padding-left: 38%;
+}
+
+
+.online{
+
+    font-family: sans-serif;
+    color : rgb(30, 32, 163);
+    font-weight:bold;
+    margin-top:99px;
+}s
+
+.in{
+
+    font-family: cursive;
+    color: rgb(26, 16, 119);
+    font-weight: bold;
+    letter-spacing:2px;
+    word-spacing:4px ;
+    
+}
+
+
+.all3div{
+    display:flex;
+    flex-direction: row;
+}
+.divh{
+    margin-right: 70px;
+}
+.un_h1, .un_ser1,.un_off1{
+    color: wheat;
+    font-size: 20px;
+    margin-right: 80px;
+}
+.un_h, .un_ser,.un_off{
+    color: wheat;
+    font-size: 15px;
+    text-align: left;
+}
+
+.un_h, .un_h{
+    margin-left: 50px;
+}
+.un_h1{
+    margin-left: 20px;
+}
+.un_off1{
+    margin-right: 70px;
+}
+
+.un_ser, .un_ser1{
+    margin-left: 200px;
+}
+.un_off, .un_off1{
+    margin-left: 300px;
+}
+
+li:hover{
+    color: #0b589b;
+}
+a{
+    color: white;
+}
+
+
+                                            /* footer css code */
+
+  
+  ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+li {
+    display:inline-block;
+    margin: 10px;
+}
+li a{
+
+    color: #fff;
+    text-decoration: none;
+    margin:opx;
+ 
+}
+li a:hover{
+    color: rgb(153, 141, 141);
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contact-info,
+.services,
+.offers {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.contact-info h3,
+.services h3,
+.offers h3 {
+    color: wheat;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-info ul,
+.services ul,
+.offers ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li,
+.services ul li,
+.offers ul li {
+    margin-bottom: 5px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+
+  
+    color: #dfdbed;
+}
+
+.fa-square-twitter{
+
+    font-size:50px;
+    color:rgb(74, 88, 240);
+}
+
+.fa-youtube{
+
+    font-size:50px;
+    color:rgb(250, 13, 13);
+}
+
+.fa-square-facebook{
+
+    font-size:50px;
+    color:rgb(48, 51, 199);
+}
+
+.fa-square-instagram
+{
+    font-size:50px;
+    color:rgb(209, 66, 159);
+
+}
+
+p{
+    margin-top:350px;
+    font-size: 30px;
+    color:#3a0d5d;
+    margin-left:800px ;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.socialM{
+
+    margin-top:30px;
+    margin-left:1000px ;
+   word-spacing: 30px;
+   
+}
+
+.business-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 300px;
+    margin-top: 80px;
+    font-family: "Arial", sans-serif; /* Apply desired font family */
+    color: #3e51ce; /* Change text color as needed */
+    background-color: rgba(249, 249, 249, 0.8); /* Adjust the opacity as needed */
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(-2000px); /* Adjust the blur amount as needed */
+}
+
+.business-form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color:#3e51ce; /* Change label color as needed */
+}
+
+.business-form input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.business-form .radio-buttons label {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #333; /* Change radio button label color as needed */
+}
+
+.business-form .radio-buttons label:hover {
+    background-color: #f0f0f0;
+}
+
+.business-form .radio-buttons input[type="radio"]:checked + label {
+    background-color: #3e51ce;
+    color: #fff;
+}
+
+.business-form button.next-button {
+    padding: 12px 24px;
+    background-color: #3e51ce;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+.business-form button.next-button:hover {
+    background-color: #2a28b8;
+}
+
+.topic{
+
+
+    margin-top: 100px; 
+    color: #161516;
+}

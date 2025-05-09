@@ -1,0 +1,352 @@
+body{
+    background-image: linear-gradient(to right, rgb(83, 58, 196), rgb(21, 140, 161) ,rgb(100, 100, 100));
+}
+
+ /* Header code css */
+ul.navbar{
+
+    
+    list-style-type: none;
+    padding: 0px;
+    background-image: linear-gradient(to right,#000000, #035063);      
+    overflow: hidden;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    width: 100%;
+    
+}
+
+ul.navbar li{
+    margin-left :20px;
+    display:inline-block;
+   
+}
+
+ul.navbar li a{
+    display:block;
+    padding: 10px;                    
+    color: white;
+    text-decoration: none;
+ }
+
+ ul.navbar li a:hover{
+
+background-color:rgb(31, 101, 148);
+ }
+
+ ul.navbar li.right {
+    margin-left:auto;
+    float:right;
+ }
+
+ 
+.search-bar{
+    margin-left:auto;
+    margin-right:0px;
+    display:flex;
+}
+.search-bar form{
+
+    margin-left:20px;
+    margin-right:20px;
+    display:flex;
+}
+
+.search-bar input[type="text"]{
+    
+    padding:10px;
+    width:200px;
+    height:10px;
+    margin-top: 3px;
+    border-radius:0px;                    
+    margin-right:5px;
+}
+
+.search-bar button[type="submit"]{
+
+    padding:10px;
+    background-color:#0b589b;
+    border:none;
+    border-radius:40px;            
+    width: 80px;                  
+    height: 25px;                
+    font-size: 18px;            
+    margin-top: 6px;
+    padding: 3px;
+    font-family:'Times New Roman', Times, serif;  
+    color:#0f0e0e;
+    cursor:pointer;
+}
+
+.search-bar button:hover{
+
+    background-color: #ffffff;
+}
+/* FRONT image */
+
+.front_img{
+    width: 100%;
+    height: 300PX;
+}
+.con_side_img{
+    width: 300px;
+}
+.div_socia_media{
+    display: flex;
+    flex-direction: row;
+}
+
+/* social media links */
+
+.div3{
+    display: flex;
+    flex-direction: row;
+    
+}
+.topic_1{
+    color: rgb(0, 0, 0);
+}
+.detail_1{
+    color: wheat;
+}
+
+.Fb,.Insta,.google,.Twitter,.Yt{
+    margin-left: 50px;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid  hwb(0 64% 32%);
+    color: black;
+    
+}
+#Fb{
+    background-color: rgba(255, 255, 255, 0.384);
+    margin-left: 0px;
+}
+#Fb:hover{
+    background-color: rgb(51, 9, 131);
+  
+}
+#Insta{
+    background-color: rgba(255, 255, 255, 0.452);
+    
+}
+#Insta:hover{
+    background-color:rgb(173, 22, 72);
+}
+#google{
+    background-color: rgba(255, 255, 255, 0.37);
+    
+}
+#google:hover{
+    background-color: rgb(175, 159, 160);
+}
+#Twitter{
+    background-color: rgba(255, 255, 255, 0.384);
+    
+}
+#Twitter:hover{
+    background-color: rgb(34, 82, 185);
+}
+#Yt{
+    background-color: rgba(255, 255, 255, 0.384);
+    
+}
+#Yt:hover{
+    background-color: rgb(168, 16, 28);
+}
+.logoimg{
+    width: 30px;
+    height: 30px;
+    border-radius: 150px;
+} 
+a{
+    text-decoration: none;
+}
+
+.div1{
+    margin-left: 40PX;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 400PX;
+}
+.div2{
+    margin-left: 200px; 
+   margin-bottom: 200px;
+   margin-top: 100PX;
+}
+
+
+
+
+
+/* contact details form*/
+
+/* function js */
+/* 
+.jsnamefunction{
+    color:rgb(249, 249, 252);
+    
+    font-weight:700;
+    font-size: 45px;
+    font-family:Geneva;
+    font-style: italic;
+    background-color:#00000098;
+    margin-right: 110px;
+    border-radius: 40px;
+    text-align: center;
+}
+.jsnamefunction:hover{
+    color: #0e3369d7;
+    background-color: rgba(255, 255, 255, 0.596);
+} */
+
+/* form */
+#fname,#lname,#email{
+    padding-left: 10px;
+    margin-top: 20px;
+    border: 1px solid black;
+
+ }               
+ .fname,.lname,.email{
+    color: rgb(0, 0, 0);
+     font-weight: bold;
+     padding-left: 85px;
+     font-size: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+                        
+
+.contactUsForm{
+    margin-top: 0px;
+    margin-bottom: 100px;
+    background-color: #ffffff79;
+    border: 2px solid rgb(75, 72, 72);
+    width: 400px;
+    height: 650px;
+    border-radius: 20px;
+    
+}
+.contactUsForm:hover{
+    background-color: rgb(199, 188, 188);
+    border: 1px;
+}
+input{
+    color: rgb(39, 38, 38);
+    font-size: 15px;
+    margin: 0px 0px 10px 85px;
+    width: 225px;
+    height: 20px;
+    border-radius: 7px;
+    text-align:left;
+}
+.inputText{
+    padding-left: 85px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}      
+
+.message{
+    margin-top: 60px;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 85px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#message{   
+    padding-left: 10px;
+    margin-left: 85px; 
+    font-size: 15px;
+    width: 225px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#submitButton{
+    margin-left: 85px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(19, 98, 151);
+    color: black;
+    background-attachment: fixed;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+#submitButton:hover{
+    background-color: rgb(92, 46, 199);
+}
+
+
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contact-info,
+.services,
+.offers {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.contact-info h3,
+.services h3,
+.offers h3 {
+    color: wheat;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-info ul,
+.services ul,
+.offers ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li,
+.services ul li,
+.offers ul li {
+    margin-bottom: 5px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+
+  
+    color: #dfdbed;
+}
+
+
