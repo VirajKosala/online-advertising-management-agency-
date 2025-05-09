@@ -1,0 +1,34 @@
+body{
+    background-color: aqua;
+}
+form{
+    border: 2px #000000;
+
+}
+tr, th,td{
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 10px;
+}
+.UpdateBtn a, .DeleteBtn a {
+    text-decoration: none;
+}
+.DeleteBtn{
+    background-color: red;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.UpdateBtn{
+    background-color: rgb(61, 224, 70);
+    font-size: 20px;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+.DeleteBtn:hover{
+    background-color: rgb(114, 39, 39);
+    font-size: 20px;
+}
+.UpdateBtn:hover{
+    background-color: rgb(53, 165, 59);
+    font-size: 20px;
+}
